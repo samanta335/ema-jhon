@@ -4,6 +4,7 @@ import "./Product.css";
 const Product = (props) => {
   const { img, seller, quantity, name, price, shipping } = props.product;
   const handleCart = props.handleCart;
+
   return (
     <div className="product">
       <img src={img} alt="" />
